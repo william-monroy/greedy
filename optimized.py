@@ -18,7 +18,7 @@ def calculate_u(points, alfa):
     return u
 
 # Usage example
-file_path = './ZCAT2_1000_02D.pof'
+file_path = 'ZCAT2_1000_02D.pof'
 M, k, points = read_points_from_file(file_path)
 alfa = k + 1
 u = calculate_u(points, alfa)
